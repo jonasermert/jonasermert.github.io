@@ -1,5 +1,6 @@
 .icons li {
     list-style: none;
+    display: inline;
 }
 
 .icons a:link {
@@ -24,4 +25,5 @@
 
 .copyright {
     list-style: none;
+    display: inline;
 }
