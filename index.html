@@ -29,8 +29,26 @@
 
 		<!-- Header -->
 			<header id="header">
+				<div class="collapse" id="navbarToggleExternalContent">
+					<div class="bg-dark p-4">
+						<h5 class="text-white h4">Collapsed content</h5>
+						<span class="text-muted">Toggleable via the navbar brand.</span>
+					</div>
+				</div>
 				<nav class="navbar navbar-dark bg-dark">
-					<!-- Navbar content -->
+					<div class="container-fluid">
+						<button
+								class="navbar-toggler"
+								type="button"
+								data-mdb-toggle="collapse"
+								data-mdb-target="#navbarToggleExternalContent"
+								aria-controls="navbarToggleExternalContent"
+								aria-expanded="false"
+								aria-label="Toggle navigation"
+						>
+							<i class="fas fa-bars"></i>
+						</button>
+					</div>
 				</nav>
 			</header>
 
