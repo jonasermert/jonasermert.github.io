@@ -1,15 +1,27 @@
+.icons li {
+    list-style: none;
+}
+
 .icons a:link {
     text-decoration: none;
+
 }
 
 .icons a:visited {
     text-decoration: none;
+
 }
 
 .icons a:hover {
     text-decoration: none;
+
 }
 
 .icons a:active {
     text-decoration: none;
+
+}
+
+.copyright {
+    list-style: none;
 }
